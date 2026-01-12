@@ -5,7 +5,7 @@ pom.xml.releaseBackup
 pom.xml.versionsBackup
 release.properties
 
-# IDEA
+# IntelliJ IDEA
 /.idea/
 /*.iml
 out/
@@ -20,3 +20,16 @@ out/
 .project
 .classpath
 .settings/
+
+# Spring Boot
+*.class
+*.jar
+*.war
+*.ear
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment / secrets
+application.properties
