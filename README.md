@@ -1,33 +1,35 @@
 # Internal Order Management
 
-A Spring Boot application to manage users, products, and orders using JPA and SQL Server.
-
-## Features
-- AppUser, Product, Order entities
-- REST API for CRUD operations
-- SQL Server integration
-- Easy to extend
-
-## Prerequisites
-- JDK 17+
-- SQL Server (network instance)
-- Maven
-
-## Setup
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/ZbrAbd/internal-order-management.git
-
-# Order Management App
-
 ![Java CI with Maven](https://github.com/ZbrAbd/internal-order-management/actions/workflows/maven-ci.yml/badge.svg)
 
-This project is a simple Spring Boot order management application using SQL Server.
+A Spring Boot application to manage **users, products, and orders** using JPA and SQL Server.  
+Supports REST APIs for CRUD operations and is ready for remote evaluation.
 
-Endpoints:
+---
 
-/api/orders GET/POST
+## Features
 
-/api/products GET/POST
+- Manage **AppUser**, **Product**, and **Order** entities
+- REST API for CRUD operations
+- SQL Server integration with Hibernate JPA
+- DTOs for clean API requests (optional)
+- Unit tests for controllers using MockMvc
+- CI/CD pipeline with GitHub Actions
+- Easy to extend for additional functionality
 
-Note about DTOs: “DTOs added for future API evolution, currently endpoints use entities directly”
+---
+
+## Prerequisites
+
+- JDK 17 or higher
+- SQL Server (network instance)
+- Maven (or use included Maven Wrapper `./mvnw`)
+
+---
+
+## Setup & Run Locally
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ZbrAbd/internal-order-management.git
+   cd order-management
