@@ -23,3 +23,11 @@ A Spring Boot application to manage users, products, and orders using JPA and SQ
 ![Java CI with Maven](https://github.com/ZbrAbd/internal-order-management/actions/workflows/maven-ci.yml/badge.svg)
 
 This project is a simple Spring Boot order management application using SQL Server.
+
+Endpoints:
+
+/api/orders GET/POST
+
+/api/products GET/POST
+
+Note about DTOs: “DTOs added for future API evolution, currently endpoints use entities directly”
